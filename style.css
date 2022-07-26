@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0 15%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    padding: 2%;
+    background-color: #333;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+}
+
+span {
+    color: #f59403;
+}
+
+.btn-1 {
+    background-color: #f59403;
+    padding: 5px 15px;
+    box-shadow: 4px 4px black;
+}
+
+.btn-2 {
+    background-color: #085394;
+    color: white;
+    padding: 5px 15px;
+    margin-left: 20px;
+    margin-right: 38px;
+    box-shadow: 4px 4px black;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-1 {
+    background-color: #f9cb9c;
+    padding: 2%;
+}
+
+.search {
+    display: flex;
+}
+
+.foodName {
+    text-align: center;
+}
+
+.imgFood {
+    background-color: white;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.btn-3 {
+    background-color: #085394;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 3px 3px black;
+}
+
+input {
+    border: 2px solid black;
+    width: 250px;
+}
+
+.section-2 {
+
+    display: flex;
+    gap: 5%;
+    margin-top: 2%;
+}
+
+.imgRecipe {
+    width: 100%;
+}
+
+.heart {
+    width: 20px;
+}
+
+.col-1 {
+    background-color: #eee;
+    padding: 2% 2%;
+    flex: 4;
+    height: 70%;
+    text-align: center;
+
+}
+
+.cont-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+
+.cont-2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+h2 {
+    margin-bottom: 3%;
+    color: #0a5595;
+}
+
+h4 {
+    text-align: left;
+
+}
+
+a {
+    color: #0a5595;
+}
+
+.desc {
+    line-height: 1.5;
+}
+
+.col-2 {
+
+    flex: 2;
+}
+
+.col-1-1 {
+    margin: 5% 0;
+}
+
+hr {
+    margin: 3% 0;
+}

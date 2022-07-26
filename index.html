@@ -1,0 +1,98 @@
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="stylesheet" href="style.css" />
+          <title>Mok Exam</title>
+        </head>
+        <body>
+          <!--navbar-->
+          <div class="nav flex">
+            <h1>Just<span>Dessert</span></h1>
+            <div class="flex">
+              <button class="btn-1" onclick="removeBtn(this)">Join</button>
+              <button class="btn-2">Login</button>
+            </div>
+          </div>
+          <!--sectionOne-->
+          <div class="section-1 flex-1">
+            <div class="search">
+              <input type="text" placeholder="SEARCH" oninput="setValue(this)"/>
+              <button class="btn-3" onclick="search()">GO</button>
+            </div>
+            <div class="food flex-1">
+              <div class="foodName">
+                <img src="imgs/cake.png" alt="cake" class="imgFood" />
+                <p>Cakes</p>
+              </div>
+              <div class="foodName">
+                <img src="imgs/ice-cream.png" alt="cake" class="imgFood" />
+                <p>Ice Cream</p>
+              </div>
+              <div class="foodName">
+                <img src="imgs/cookie.png" alt="cake" class="imgFood" />
+                <p>Cookies</p>
+              </div>
+              <div class="foodName">
+                <img src="imgs/pie.png" alt="cake" class="imgFood" />
+                <p>Pies</p>
+              </div>
+            </div>
+          </div>
+          <!--sectinTwo-->
+          <div class="section-2">
+            <div class="col-1">
+              <h2>Recipe of the Day</h2>
+              <img src="./imgs/orange-tart.jpg" alt="orange" class="imgRecipe" />
+              <div class="cont-1">
+                <div class="desc">
+                  <h4>Orange Tea Jelly Tart</h4>
+                </div>
+                <div class="cont-2">
+                  <img src="./imgs/heart.png" alt="heart" class="heart"  onclick="numberLikes1()" />
+                  <h4 id="num-1">68</h4>
+                </div>
+              </div>
+              <h4>by: <a href="">yuripiano</a></h4>
+            <p><a href="">See Full Recipe</a></p> 
+            </div>
+            <div class="col-2">
+              <h3>Recommended for you:</h3>
+              <hr />
+              <div class="col-1-1">
+                <img src="./imgs/macarons.jpg" alt="macarons" class="imgRecipe" />
+                <div class="cont-1">
+                  <div class="desc">
+                    <h4>macarons</h4>
+                  </div>
+                  <div class="cont-2">
+                    <img src="./imgs/heart.png" alt="heart" class="heart"  onclick="numberLikes2()" />
+                    <h4 id="num-2">212</h4>
+                  </div>
+                </div>
+                <h4>by: <a href="">EmilieW</a></h4>
+              </div>
+              <div class="col-1-1">
+                <img
+                  src="./imgs/creme-brulee.jpg"
+                  alt="cremebrulee"
+                  class="imgRecipe"
+                />
+                <div class="cont-1">
+                  <div class="desc">
+                        <h4>Créme Brulée</h4>
+                  </div>
+                  <div class="cont-2">
+                    <img src="./imgs/heart.png" alt="heart" class="heart" onclick="numberLikes3()"/>
+                    <h4 id="num-3">33</h4>
+                  </div>
+                </div>
+                <h4>by: <a href="">MarisaG</a></h4>
+              </div>
+            </div>
+          </div>
+          <script src="script.js"></script>
+        </body>
+      </html>
